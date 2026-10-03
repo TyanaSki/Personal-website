@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Researcher & Programmer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">☕ your.name</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">researcher • programmer • creator</p>
+        <h1>Hi, I'm <span>Your Name</span>.</h1>
+        <h2>I research ideas and build things.</h2>
+        <p class="intro">
+          Welcome to my little corner of the internet. I use this space to
+          share my projects, research interests, hobbies, and things I'm
+          currently learning.
+        </p>
+        <div class="buttons">
+          <a href="#projects" class="button primary">View My Projects</a>
+          <a href="#about" class="button secondary">About Me</a>
+        </div>
+      </div>
+
+      <div class="coffee-card">
+        <div class="window">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="screen">
+          <p>// currently working on</p>
+          <h3>new ideas...</h3>
+          <p class="code-line">while (learning) {</p>
+          <p class="code-line indent">create();</p>
+          <p class="code-line indent">research();</p>
+          <p class="code-line">}</p>
+          <div class="coffee">☕</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-label">01 / about</p>
+      <h2>A little about me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a computer science student interested in programming,
+            technology, research, and creative projects. I enjoy learning how
+            things work and then turning what I learn into something useful.
+          </p>
+          <p>
+            This website is a place to document that process — from small
+            experiments and class projects to bigger ideas I want to explore.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong>Currently learning</strong></p>
+          <p>Programming • Web Development • Research</p>
+          <p><strong>My approach</strong></p>
+          <p>Curious → Research → Build → Improve</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-label">02 / projects</p>
+      <h2>Things I've built</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="card-icon">{"</>"}</span>
+          <h3>Web Project</h3>
+          <p>A website or web application that I'm working on.</p>
+          <span class="tag">HTML / CSS / JS</span>
+        </article>
+        <article class="card">
+          <span class="card-icon">⌘</span>
+          <h3>Programming Project</h3>
+          <p>A programming project that demonstrates what I'm learning.</p>
+          <span class="tag">Python / Programming</span>
+        </article>
+        <article class="card">
+          <span class="card-icon">⌕</span>
+          <h3>Research Project</h3>
+          <p>A research topic, paper, experiment, or question I'm exploring.</p>
+          <span class="tag">Research</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <p class="section-label">03 / research</p>
+      <h2>Research & interests</h2>
+      <div class="research-list">
+        <div><span>01</span><h3>Computer Science</h3><p>Exploring programming, software, and how technology solves problems.</p></div>
+        <div><span>02</span><h3>Artificial Intelligence</h3><p>Learning about AI, its applications, and the questions surrounding it.</p></div>
+        <div><span>03</span><h3>Data & Technology</h3><p>Interested in how information is collected, organized, analyzed, and used.</p></div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section">
+      <p class="section-label">04 / outside the code</p>
+      <h2>When I'm not programming</h2>
+      <div class="hobby-grid">
+        <div class="hobby">🎨 <span>Art & Drawing</span></div>
+        <div class="hobby">🎵 <span>Music</span></div>
+        <div class="hobby">🎮 <span>Gaming</span></div>
+        <div class="hobby">🎬 <span>Animation</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">05 / contact</p>
+      <h2>Let's connect.</h2>
+      <p>Want to talk about a project, research, or an idea?</p>
+      <a class="button primary" href="mailto:youremail@example.com">Send me an email</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ☕ & curiosity.</p>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
